@@ -1,0 +1,127 @@
+body {
+    background-color: yellow;
+}
+
+div {
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#tekst {
+    text-orientation: upright;
+    text-decoration: solid;
+    color: violet;
+}
+
+#glavniDiv {
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 20%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.serbia {
+    align-self: center;
+    margin-left: 49%;
+}
+
+.bosnia {
+    align-self: center;
+    margin-left: 9%;
+}
+
+.montenegro {
+    margin-left: 20%;
+    margin-top: 98%;
+}
+
+.croatia {
+    margin-left: 8%;
+    margin-top: 30%;
+}
+
+.romania {
+    margin-left: 90%;
+    margin-top: 20%;
+}
+
+.hungary {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.serbia,
+.croatia,
+.hungary,
+.romania,
+.bosnia,
+.montenegro {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flag {
+    width: 30px;
+    height: 30px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-header {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

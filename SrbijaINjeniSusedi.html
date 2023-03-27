@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1>Srbija i njeni susedi</h1>
+
+    <span>
+        <p id="tekst">GEOGRAFIJA</p>
+    <div id="glavniDiv">
+        <img id="mapa" src="slike/map.jpg" alt="">
+        <div class="serbia" onmouseover="pustiHimnu('serbia')">
+            <div class="flag"><img src="slike/serbia-flag.jpg" alt="Flag of Serbia" /></div>
+            <div class="name">Serbia</div>
+        </div>
+        <div class="croatia" onmouseover="pustiHimnu('croatia')">
+            <div class="flag"><img src="slike/croatia-flag.jpg" alt="Flag of Croatia" /></div>
+            <div class="name">Croatia</div>
+        </div>
+        <div class="hungary">
+            <div class="flag"><img src="slike/hungary-flag.jpg" alt="Flag of Hungary" /></div>
+            <div class="name">Hungary</div>
+        </div>
+        <div class="romania">
+            <div class="flag"><img src="slike/romania-flag.jpg" alt="Flag of Romania" /></div>
+            <div class="name">Romania</div>
+        </div>
+        <div class="bosnia">
+            <div class="flag"><img src="slike/bosnia-flag.jpg" alt="Flag of Bosnia and Herzegovina" /></div>
+            <div class="name">Bosnia and Herzegovina</div>
+        </div>
+        <div class="montenegro">
+            <div class="flag"><img src="slike/montenegro-flag.jpg" alt="Flag of Montenegro" /></div>
+            <div class="name">Montenegro</div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close" id="close">&times;</span>
+    <h2>Country Info</h2>
+    </div>
+    <div class="modal-body">
+        <p>Area: <span id="area"></span></p>
+        <p>Population: <span id="population"></span></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </span>
+</body>
+<script src="app.js"></script>
+
+</html>
